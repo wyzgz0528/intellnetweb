@@ -27,7 +27,7 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         id: swa
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LIVELY_MEADOW_01358DC00 }}
+          azure_static_web_apps_api_token: ${{ AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: upload
           app_location: "/"
           output_location: ""
